@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<div class="bg">
+    <main class="container">
+
+    <div class="sections" id="leftSide"> 
+        <img src="palmLogo.png" id="logo" alt="Palm tree resort logo"> 
+        
+        <form action="action_page.php" method="post">
+            <input type="text" id="name" name="name" placeholder="Name" 
+                    onfocus="formFocus(this)" onblur="formBlur(this)"><br>
+            <input type="text" id="email" name="email" placeholder="Email"
+                    onfocus="formFocus(this)" onblur="formBlur(this)"><br><br>
+            <input type="submit" id="signUp" value="Sign Up">
+        </form>
+    </div>
+
+    <div class="sections" id="rightSide">
+        <img src="tropicalImg.jpg" id="tropical" alt="Tropical resort">
+    </div>
+
+</main>  
+    <script src="form.js"></script>    
+</body>
+</html>
